@@ -1,4 +1,4 @@
-package main
+package sqlx
 
 import (
 	"fmt"
@@ -46,6 +46,5 @@ func main() {
 		if err != nil {
 			log.Println(err)
 		}
-		fmt.Println(p)
 	}
 }
